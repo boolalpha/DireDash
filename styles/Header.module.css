@@ -1,0 +1,22 @@
+
+.bannerHeader {
+    height: 64px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+}
+
+.bannerLogo {
+    display: flex;
+    height: 100%;
+}
+
+.bannerImage {
+    height: 100%;
+    object-fit: contain;
+}

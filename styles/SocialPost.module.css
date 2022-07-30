@@ -1,0 +1,35 @@
+.socialPost {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding: calc(8px) 0;
+
+    border: solid var(--border-color) 2px;
+    border-radius: 16px;
+
+    margin: 16px 0;
+}
+
+.profileImage {
+    /* background-color: blue; */
+    width: calc(50px + 1vmin);
+    height: calc(50px + 1vmin);
+}
+
+.postUser {
+    width: 15%;
+}
+
+.postDatetime {
+    width: 20%;
+}
+
+.postNotes {
+    width: 25%;
+}
+
+.postCategory {
+    width: 15%;
+}

@@ -1,0 +1,67 @@
+.breakdownContainer {
+    width: 100%;
+    /* height: 100%; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.building {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.floor {
+    width: 25%;
+    min-width: calc(200px + 2vmin);
+    display: flex;
+}
+
+.floorName {
+    width: 15%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.floorReading {
+    border: solid black 2px;
+    border-width: 1px 2px;
+
+    flex: 1;
+
+    padding: calc(8px + 1vmin) 0;
+}
+
+.green {
+    background-color: greenyellow;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.red {
+    background-color: crimson;
+}
+
+.sensorAverageContainer {
+    margin: 16px 0;
+    border: solid 2px var(--border-color);
+    border-radius: 16px;
+    padding: 16px;
+}
+
+.sensorAverageTitle {
+    font-size: calc(16px + 1vmin);
+    width: 100%;
+    border-bottom: solid 2px var(--border-color);
+    margin-bottom: 8px;
+}

@@ -1,0 +1,23 @@
+.cctcvContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cctvCam {
+    width: calc(33.33vw);
+    height: calc(22.22vw);
+    
+    margin: 16px;
+
+}
+
+/* For mobile development but specifically portrait */
+@media (orientation: portrait) {
+    .cctvCam {
+        width: calc(90vw);
+        height: calc(60vw);
+        margin: 16px;
+    }
+}

@@ -1,0 +1,82 @@
+.green {
+    background-color: greenyellow;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.red {
+    background-color: crimson;
+}
+
+.taskTrackerItemContainer {
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 12px 0;
+    margin-bottom: 12px;
+    border: solid var(--border-color) 2px;
+}
+
+.taskTrackerValuesContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.taskTrackerHeader {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.taskTrackerVitals {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    border: solid 2px var(--border-color);
+    border-radius: 8px;
+
+    margin: 4px 0;
+}
+
+.taskTrackerHeader * {
+    width: 25%;
+}
+
+.taskNotes {
+    width: 50%;
+    margin: 0 20px;
+
+    border: 2px solid var(--border-color);
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+.dropdown {
+    border: solid 2px var(--border-color);
+}
+
+/* For mobile development but specifically portrait */
+@media (orientation: portrait) {
+    .taskTrackerItemContainer {
+        flex-direction: column;
+    }
+
+    .taskNotes {
+        width: calc(100% - 16px);
+    }
+
+    .taskTrackerValuesContainer {
+        width: calc(100% - 16px);
+    }
+}
