@@ -51,6 +51,7 @@
     display: block;
     box-shadow: 0 0 20px #eee;
     cursor: pointer;
+    user-select: none;
 }
 
 .infoButton {        
@@ -78,6 +79,11 @@
     color: white;    
 }
 
+.buildingTitle {
+    font-size: calc(16px + 1vmin);
+    margin-top: 16px;
+}
+
 .mainImage {
     height: 300px;
     width: 300px;
@@ -88,7 +94,7 @@
     width: 100%;
     height: 100%;
     position: absolute;
-    top: 100%;
+    top: 150vh;
     transition: 0.4s ease;
     
     display: flex;
@@ -141,11 +147,18 @@
     border-radius: 16px;
     margin: calc(16px);
     width: 75%;
+    padding: 8px;
+}
+
+.popUpSubContainer p{
+    margin: 8px 0;
 }
 
 .popUpSubTitle {
     font-size: calc(16px + 1vmin);
     padding: calc(8px + 1vmin);
+    border-bottom: solid 2px var(--border-color);
+    margin: 0 8px;
 }
 
 /* info utilities */
@@ -458,6 +471,8 @@
     .main {
         flex-direction: column;
         justify-content: flex-end;
+
+        padding-bottom: 45px;
     }
 
     .primaryDisplay {

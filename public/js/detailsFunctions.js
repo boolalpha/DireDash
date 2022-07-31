@@ -3,16 +3,9 @@ import SocialPost from '../../components/SocialPost';
 import React from 'react';
 import ReactDOM from 'react-dom'
 
-// export function hidePopUps() {
-//     var popUps = document.getElementsByClassName(`${styles.popUp}`);
-//     console.log(popUps);
-//     for(var i = 0; i < popUps.length; i++) {
-//         popUps[i].style.top = "100%";
-//     }
-// }
 export function hidePopUps(eventTarget) {
-    console.log("trigger hide pop up");
-    eventTarget.style.top = "100%";
+    // console.log("trigger hide pop up");
+    eventTarget.style.top = "150vh";
 }
 
 export function showPopUp(elemId) {

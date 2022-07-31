@@ -23,7 +23,13 @@
 }
 
 .title {
-  font-size: calc(24px + 1.5vmin);
+  font-size: calc(32px + 1.5vmin);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 75%;
+  margin-top: 64px;
+  color: rgb(147, 147, 147);
 }
 
 .searchContainer {
@@ -66,7 +72,7 @@
 
 .searchButton {
 
-  width: 50%;
+  width: 100%;
   min-width: 64px;
 
   padding: 8px 0;
@@ -83,7 +89,7 @@
 
 .browseButton {
 
-  width: 50%;
+  width: 100%;
   min-width: 64px;
 
   padding: 8px 0;

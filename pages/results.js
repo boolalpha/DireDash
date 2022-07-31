@@ -38,8 +38,11 @@ export default function Results() {
 
         <a href="/details" className={styles.resultElement}>
             <img src="/img/sampleBuildingTransparent.png" className={styles.resultElementImage}></img>
-            <h2>Campione Building</h2>
-            <h2>123 Esempio St.</h2>
+            <div className={styles.resultAddressContainer}>
+              <h2>Campione Building</h2>
+              <h2>123 Esempio St.</h2>
+              <h2>Detroit, MI 48202</h2>
+            </div>
             <img src="img/arrow.png" className={styles.resultArrow}></img>
         </a>
         

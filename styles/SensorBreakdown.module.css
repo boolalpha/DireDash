@@ -29,6 +29,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    border: solid 2px var(--border-color);
+    border-width: 2px 0 2px 2px;
+    border-radius: 12px 0 0 12px;
 }
 
 .floorReading {

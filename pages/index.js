@@ -17,7 +17,7 @@ export default function Home() {
         <Header></Header>
         
         <h1 className={styles.title}>
-          Welcome to Dire Dashboard
+          Welcome to the Dire Dashboard
         </h1>
 
         <div className={styles.searchContainer}>

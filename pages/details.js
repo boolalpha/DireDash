@@ -28,10 +28,10 @@ function Details() {
             <Header />
 
             <div className={styles.primaryDisplay}>
-                <h1 className={styles.title}>
+                <h1 className={styles.buildingTitle}>
                     Campione Building
                 </h1>
-                <Image 
+                <img 
                     src="/img/sampleBuildingTransparent.png"
                     width={300}
                     height={300}
@@ -73,6 +73,7 @@ function Details() {
                         <div className={styles.popUpSubContainer}>
                             <h3 className={styles.popUpSubTitle}>Address</h3>
                             <p>123 Esempio St.</p>
+                            <p>Detroit, MI 48202</p>
                         </div>
                         <div className={styles.popUpSubContainer}>
                             <h3 className={styles.popUpSubTitle}>Number of Floors</h3>
