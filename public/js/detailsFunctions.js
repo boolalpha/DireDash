@@ -51,10 +51,10 @@ export function postSubmission(postElement) {
     var date = datetime.toLocaleDateString();
     var time = datetime.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
 
-    var user = postElement.children[0].children[1].innerText;
-    var category = postElement.children[1].children[1].value;
-    var notes = postElement.children[2].value;
-
+    var user = postElement.children[0].children[0].children[1].innerText;
+    var category = postElement.children[0].children[1].children[1].value;
+    var notes = postElement.children[1].value;
+    
     var newPost = React.createElement(SocialPost, {
         user : user,
         date : date,
